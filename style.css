@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.my_style {
+  width: 100%;
+  background:#F5F0BB;
+  color:#73A9AD;
+}
+
+.other_style {
+  background-color:#E7CBCB;
+  color:#99627A;
+}
+
+#my_id {
+
+}
+
+.Food {
+
+  background-color:#E3F2C1;
+  border:3px solid #F7E1AE;
+  color:#617A55;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-family: cursive;
+  font-weight: normal;
+}
+
+.food2 {
+  background-color:#E3F2C1;
+  color:#617A55;
+}
+
+.formal {
+  background-color:#F6FFDE;
+  color:#394867;
+  align-content:#center;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: #F5F0BB;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: #FFD95A;
+  }
+}
+
+@media (min-width: 1280px) {
+  body {
+    background-color: #FFF4E0;
+  }
+}
+
+.menu_TEST {
+  background-color: #F5EBEB;
+  color: #867070;
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: space-between;  //works horizontally on the child divs relative to the parent//
+  align-items: center;  //works vertically on the child divs relative to the parent//
+}
+
+.menu {                               //CSS for order page parent div//
+  background-color:#E3F2C1;
+  width: auto;
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.trial2 {                           //CSS for child divs//
+  background-color: #F5EBEB;
+  color: #617A55;
+}
